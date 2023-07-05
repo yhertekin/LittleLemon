@@ -3,7 +3,8 @@ import Nav from "./Nav";
 
 const Footer = () => {
 	return (
-		<footer>
+		<footer className="footer">
+			<div></div>
 			<div>
 				<h6>Doormat Navigation</h6>
 				<Nav />
