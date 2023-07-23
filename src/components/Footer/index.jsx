@@ -1,5 +1,4 @@
-import React from "react";
-import Nav from "./Nav";
+import Nav from "./../Nav";
 
 const Footer = () => {
 	return (
@@ -14,6 +13,7 @@ const Footer = () => {
 				<address>
 					<div>address</div>
 					<a href="mailto:john@doe.com">john@doe.com</a>
+					<br />
 					<a href="tel:+1234567891">(123) 456-7891</a>
 				</address>
 			</div>

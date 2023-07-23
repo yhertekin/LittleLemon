@@ -1,6 +1,5 @@
-import React from "react";
-import Nav from "./Nav";
-import { ReactComponent as Logo } from "./../assets/Logo.svg";
+import Nav from "./../Nav";
+import { ReactComponent as Logo } from "./../../assets/Logo.svg";
 
 const Header = () => {
 	return (
