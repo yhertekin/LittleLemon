@@ -1,0 +1,6 @@
+
+.menu__nav {
+    @apply bg-red-500 text-white absolute left-0 top-[6rem] w-full h-[calc(100vh-6rem)] flex items-center justify-center flex-col text-3xl gap-8 z-10 uppercase; 
+
+}
+

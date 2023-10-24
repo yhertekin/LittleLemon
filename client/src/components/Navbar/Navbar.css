@@ -1,3 +1,43 @@
 .navbar {
-	@apply h-12 text-red-500 flex items-center justify-between p-4 border-b border-b-red-500;
+	@apply h-12 text-red-500 flex items-center justify-between p-4 border-b border-b-red-500 text-lg;
+}
+
+.navbar__logo {
+	@apply flex-1;
+}
+
+.navbar__links {
+	@apply hidden;
+}
+
+@media screen(md) {
+	.navbar {
+		@apply h-24;
+	}
+
+	.navbar__links {
+		@apply flex gap-4 uppercase flex-1 items-center;
+	}
+
+	.navbar__logo {
+		@apply font-bold text-center;
+	}
+
+	.navbar__menu {
+		@apply hidden;
+	}
+}
+
+@media screen(lg) {
+	.navbar {
+		@apply px-20;
+	}
+
+}
+
+
+@media screen(xl) {
+	.navbar {
+		@apply px-40;
+	}
 }

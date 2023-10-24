@@ -1,0 +1,25 @@
+.footer {
+    @apply h-12 p-4 text-red-500 flex items-center justify-between;
+}
+
+.footer__logo {
+    @apply font-bold text-xl;
+}
+
+@media screen(md){
+    .footer {
+        @apply h-24;
+    }
+}
+
+@media screen(lg){
+    .footer {
+        @apply p-20;
+    }
+}
+
+@media screen(xl){
+    .footer {
+        @apply p-40;
+    }
+}

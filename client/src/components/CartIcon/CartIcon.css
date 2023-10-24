@@ -1,0 +1,16 @@
+.cart-icon {
+    @apply flex items-center justify-center gap-4;
+}
+
+.cart-icon__img {
+    @apply w-8 h-8 relative;
+}
+
+@media screen(md) {
+    .cart-icon__img {
+        @apply w-6 h-6 ;
+    }
+    .cart-icon {
+        @apply gap-2;
+    }
+}
