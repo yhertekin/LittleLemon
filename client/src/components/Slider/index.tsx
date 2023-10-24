@@ -25,10 +25,10 @@ const slides = [
 const Slider = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
-    useEffect(() => {
-        const interval = setInterval(() => setCurrentSlide((prevState) => (prevState + 1) % 3), 1000);
-        return () => clearInterval(interval);
-    }, []);
+    // useEffect(() => {
+    //     const interval = setInterval(() => setCurrentSlide((prevState) => (prevState + 1) % 3), 1000);
+    //     return () => clearInterval(interval);
+    // }, []);
 
     return (
         <div className='slider'>
