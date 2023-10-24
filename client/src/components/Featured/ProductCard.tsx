@@ -12,14 +12,14 @@ const ProductCard = ({ product }: IProductCard) => {
         <div className='product-card'>
             {product.img && (
                 <div className='product-card__image'>
-                    <Image className='object-contain' src={product.img} alt='product image' fill />
+                    <Image src={product.img} alt='product image' fill className='object-contain' />
                 </div>
             )}
             <div className='product-card__text-container'>
-                <h1 className='text-container__title'>{product.title}</h1>
-                <p className='text-container__description'>{product.desc}</p>
-                <span className='text-container__price'>${product.price}</span>
-                <button className='text-container__button'>Add to Cart</button>
+                <h1 className='product-card__text-container__title'>{product.title}</h1>
+                <p className='product-card__text-container__description'>{product.desc}</p>
+                <span className='product-card__text-container__price'>${product.price}</span>
+                <button className='product-card__text-container__button'>Add to Cart</button>
             </div>
         </div>
     );

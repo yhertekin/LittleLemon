@@ -32,12 +32,17 @@ const Slider = () => {
 
     return (
         <div className='slider'>
-            <div className='text-container'>
-                <h1 className='text-container__title'>{slides[currentSlide].title}</h1>
-                <button className='text-container__button'>Order Now</button>
+            <div className='slider__text-container'>
+                <h1 className='slider__text-container__title'>{slides[currentSlide].title}</h1>
+                <button className='slider__text-container__button'>Order Now</button>
             </div>
-            <div className='image-container'>
-                <Image src={slides[currentSlide].image} alt='slider image' fill className='image-container__image' />
+            <div className='slider__image-container'>
+                <Image
+                    src={slides[currentSlide].image}
+                    alt='slider image'
+                    fill
+                    className='slider__image-container__image'
+                />
             </div>
         </div>
     );

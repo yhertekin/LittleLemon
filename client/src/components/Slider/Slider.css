@@ -2,23 +2,23 @@
     @apply flex flex-col h-[calc(100vh-6rem)] bg-red-100 ;
 }
 
-.text-container {
+.slider__text-container {
     @apply flex flex-1 items-center justify-center flex-col gap-8 font-bold;
 }
 
-.text-container__title {
+.slider__text-container__title {
     @apply text-red-500 text-5xl text-center uppercase p-4;
 }
 
-.text-container__button {
-    @apply bg-red-500 text-white py-4 px-8;
+.slider__text-container__button {
+    @apply bg-red-500 text-white py-4 px-8 rounded-md;
 }
 
-.image-container {
+.slider__image-container {
     @apply w-full flex-1 relative;
 }
 
-.image-container__image {
+.slider__image-container__image {
     @apply object-cover;
 }
 
@@ -27,7 +27,7 @@
         @apply h-[calc(100vh-9rem)];
     }
 
-    .text-container__title {
+    .slider__text-container__title {
         @apply p-10 text-6xl;
     }
     
@@ -40,7 +40,7 @@
 }
 
 @media screen(xl){
-    .text-container__title {
+    .slider__text-container__title {
         @apply text-7xl;
     }
 }
