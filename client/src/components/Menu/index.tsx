@@ -8,7 +8,7 @@ import CartIcon from "../CartIcon";
 
 const navigationLinks = [
     { id: 1, title: "homepage", url: "/" },
-    { id: 2, title: "menu", url: "/" },
+    { id: 2, title: "menu", url: "/menu" },
     { id: 3, title: "working hours", url: "/" },
     { id: 4, title: "contact", url: "/" },
 ];
