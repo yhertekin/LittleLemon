@@ -14,12 +14,12 @@
 
 @media screen(lg){
     .footer {
-        @apply p-20;
+        @apply px-20;
     }
 }
 
 @media screen(xl){
     .footer {
-        @apply p-40;
+        @apply px-40;
     }
 }
